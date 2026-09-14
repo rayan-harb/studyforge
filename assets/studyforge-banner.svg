@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">StudyForge</title>
+  <desc id="desc">A dark blue and violet banner with a stylized anvil and the words Forge better study habits.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="0.55" stop-color="#101B3D"/>
+      <stop offset="1" stop-color="#26164B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#30D5C8"/>
+      <stop offset="1" stop-color="#A970FF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <g opacity="0.16" stroke="#9CEBE4" fill="none">
+    <path d="M0 70H1200M0 290H1200"/>
+    <circle cx="1050" cy="60" r="190"/>
+    <circle cx="1050" cy="60" r="135"/>
+    <circle cx="1050" cy="60" r="80"/>
+  </g>
+  <g transform="translate(100 82)" filter="url(#glow)">
+    <path d="M43 30h142c15 0 24 16 16 29l-18 28H76L57 65H25C11 65 0 54 0 40V30h43z" fill="url(#accent)"/>
+    <path d="M89 87h73v35c0 28 19 45 43 53v13H48v-13c23-8 41-25 41-53z" fill="#D9FFFC"/>
+    <path d="M61 188h132v22H61z" rx="8" fill="url(#accent)"/>
+    <path d="M18 8l15 8M222 28l-17 5M206 105l17 9" stroke="#E7CAFF" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="390" y="155" fill="#F8FBFF" font-size="76" font-weight="800" letter-spacing="-2">StudyForge</text>
+    <rect x="392" y="180" width="520" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="392" y="237" fill="#B9C6E4" font-size="28" font-weight="500">FORGE BETTER STUDY HABITS</text>
+    <text x="392" y="282" fill="#7D8BAB" font-size="20">sessions  •  active recall  •  analytics  •  next steps</text>
+  </g>
+</svg>
+
